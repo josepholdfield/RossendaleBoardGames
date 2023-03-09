@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  .links {
+    min-width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+    p {
+      margin: 8px;
+    }
+    h1 {
+      font-weight: 400;
+      font-size: 80px;
+      margin: 16px;
+    }
+    .social {
+      img {
+        margin: 16px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
