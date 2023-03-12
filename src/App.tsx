@@ -1,12 +1,12 @@
 import "./App.css";
 import ParticleBackground from "./components/particleBackground/ParticleBackground";
-import About from "./components/about/About";
+import Navigation from "./components/Navigation/navigation";
 
 const App = () => {
   return (
     <>
       <ParticleBackground />
-      <About />
+      <Navigation />
     </>
   );
 };

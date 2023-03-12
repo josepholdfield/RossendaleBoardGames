@@ -1,5 +1,6 @@
 export const me = {
   name: "Joseph Oldfield",
-  title: "Softwae Engineering Lead",
+  title: "Software Engineering Lead",
   company: "Capgemini",
+  github: "https://github.com/josepholdfield",
 };
