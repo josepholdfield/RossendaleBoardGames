@@ -1,6 +1,29 @@
 .navigation {
-  height: 5vh;
+  height: 12vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  .arrow {
+    transition-duration: 0.8s;
+    transition-property: transform;
+    position: relative;
+    top: -5px;
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-right: 0.3em solid #fff;
+    border-top: 0.3em solid #fff;
+    transform: rotate(135deg);
+    margin-right: 0.5em;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+  .flip {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315);
+  }
+}
+.scrolled {
+  background-color: #123524;
 }

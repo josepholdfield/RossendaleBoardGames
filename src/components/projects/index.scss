@@ -1,8 +1,30 @@
 .projects {
+  background-color: #123524;
+  color: #fff;
   width: 100vw;
-  height: 95vh;
+  height: 88vh;
   position: relative;
-  button {
-    top: 5%;
+  display: flex;
+  flex-direction: row;
+  .panel {
+    margin: 5%;
+    width: 50vw;
+    div {
+      height: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    .panel {
+      height: 50%;
+      width: 100vw;
+    }
   }
 }

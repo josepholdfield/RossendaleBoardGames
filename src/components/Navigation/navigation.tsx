@@ -19,10 +19,11 @@ export default function Navigation() {
       <div ref={about}>
         <About />
       </div>
-      <div className="navigation">
-        <button onClick={() => handleScroll(didScroll ? projects : about)}>
-          test
-        </button>
+      <div className={`navigation ${didScroll && "scrolled"}`}>
+        <div
+          className={`arrow ${didScroll && "flip"}`}
+          onClick={() => handleScroll(didScroll ? about : projects)}
+        ></div>
       </div>
       <div ref={projects}>
         <Projects />
