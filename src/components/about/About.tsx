@@ -4,9 +4,10 @@ import github from "../../resources/icons/github.svg";
 import linkedIn from "../../resources/icons/linkedIn.svg";
 import instagram from "../../resources/icons/instagram.svg";
 import phone from "../../resources/icons/phone.svg";
-import { useEffect, useRef } from "react";
 
-export default function About() {
+type Props = {};
+
+export default function About({}: Props) {
   return (
     <div className="about">
       <div className="links">
