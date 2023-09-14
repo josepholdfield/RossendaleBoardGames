@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/RossendaleBoardGames/static/css/main.900cfbe8.css",
-    "main.js": "/RossendaleBoardGames/static/js/main.9a470cfd.js",
+    "main.js": "/RossendaleBoardGames/static/js/main.099299f2.js",
     "static/js/787.5c9d616b.chunk.js": "/RossendaleBoardGames/static/js/787.5c9d616b.chunk.js",
     "static/media/logo.png": "/RossendaleBoardGames/static/media/logo.1e3781e17de14f3fb015.png",
     "index.html": "/RossendaleBoardGames/index.html",
     "main.900cfbe8.css.map": "/RossendaleBoardGames/static/css/main.900cfbe8.css.map",
-    "main.9a470cfd.js.map": "/RossendaleBoardGames/static/js/main.9a470cfd.js.map",
+    "main.099299f2.js.map": "/RossendaleBoardGames/static/js/main.099299f2.js.map",
     "787.5c9d616b.chunk.js.map": "/RossendaleBoardGames/static/js/787.5c9d616b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.900cfbe8.css",
-    "static/js/main.9a470cfd.js"
+    "static/js/main.099299f2.js"
   ]
 }
