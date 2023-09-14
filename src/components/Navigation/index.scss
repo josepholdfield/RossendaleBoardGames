@@ -1,8 +1,8 @@
 .navigation {
-  height: 12vh;
+  align-items: center;
+  height: 8vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   .arrow {
     transition-duration: 0.8s;
     transition-property: transform;
@@ -23,7 +23,4 @@
     transform: rotate(315deg);
     -webkit-transform: rotate(315);
   }
-}
-.scrolled {
-  background-color: #123524;
 }

@@ -6,7 +6,7 @@ export const particleOptions: ISourceOptions = {
       value: "#123524",
     },
   },
-  fpsLimit: 120,
+  fpsLimit: 60,
   interactivity: {
     events: {
       onClick: {
